@@ -8,6 +8,8 @@ type ButtonProps = {
   onClick?: () => void;
   className?: string;
   href?: string;
+  type?: "button" | "submit" | "reset";
+  disabled?: boolean;
 };
 
 const Button: FC<ButtonProps> = ({
@@ -16,6 +18,8 @@ const Button: FC<ButtonProps> = ({
   onClick,
   className = "",
   href,
+  type,
+  disabled,
 }) => {
   const baseStyle =
     "px-4 py-2 text-sm font-semibold rounded-lg transition duration-300";
@@ -34,6 +38,8 @@ const Button: FC<ButtonProps> = ({
       href={href || "#"}
       className={`${baseStyle} ${styles[variant]} ${className}`}
       onClick={onClick}
+      type={type}
+      disabled={disabled}
     >
       {children}
     </Component>

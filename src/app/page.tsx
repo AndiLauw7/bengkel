@@ -1,5 +1,9 @@
+import ContactSection from "@/components/organisms/ContactSection";
+import Footer from "@/components/organisms/Footer";
+import GallerySection from "@/components/organisms/GaleriSections";
 import Header from "@/components/organisms/Header";
 import HeroSection from "@/components/organisms/HeroSection";
+import ServiceFeatureSection from "@/components/organisms/ServiceSection";
 
 export default function Home() {
   const heroImage = "/hero.jpeg";
@@ -17,6 +21,10 @@ export default function Home() {
           headline={mainHeadline}
           subHeadline={secondaryHeadline}
         />
+        <ServiceFeatureSection />
+        <GallerySection />
+        <ContactSection />
+        <Footer />
       </main>
     </div>
   );

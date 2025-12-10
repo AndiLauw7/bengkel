@@ -16,7 +16,10 @@ const HeroSection: FC<HeroSectionProps> = ({
 }) => {
   return (
     // <section className="relative h-[60vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
-    <section className="relative min-h-[100vh] md:min-h-[80vh] flex items-center justify-center overflow-hidden">
+    <section
+      id="beranda"
+      className="relative min-h-[100vh] md:min-h-[80vh] flex items-center justify-center overflow-hidden"
+    >
       <div className="absolute inset-0">
         <Image
           src={imageUrl}

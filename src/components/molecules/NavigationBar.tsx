@@ -3,13 +3,12 @@ import React, { FC } from "react";
 import Link from "next/link";
 import Logo from "../atoms/Logo";
 import Button from "../atoms/Button";
-import { Menu, X } from "lucide-react"; // Import ikon untuk mobile
-
+import { Menu, X } from "lucide-react";
 const navItems = [
-  { name: "Layanan", href: "/services" },
-  { name: "Tentang Kami", href: "/about" },
-  { name: "Galeri", href: "/gallery" },
-  { name: "Kontak", href: "/contact" },
+  { name: "Beranda", href: "#beranda" },
+  { name: "Layanan", href: "#servis" },
+  { name: "Galeri", href: "#galeri" },
+  { name: "Kontak", href: "#kontak" },
 ];
 
 const NavigationBar: FC = () => {
@@ -29,7 +28,7 @@ const NavigationBar: FC = () => {
             {item.name}
           </Link>
         ))}
-        <Button variant="primary" href="/reservasi">
+        <Button variant="primary" href="#kontak">
           Reservasi Service
         </Button>
       </div>
@@ -65,7 +64,7 @@ const NavigationBar: FC = () => {
             </Button>
             <Button
               variant="whatsapp"
-              href="https://wa.me/62 819-3399-8880"
+              href="https://wa.me/6281933998880"
               className="w-full"
             >
               Hubungi via WhatsApp
