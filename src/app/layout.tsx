@@ -19,10 +19,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "ANG'S MOTOR",
+  icons: {
+    icon: "./hero.jpeg",
+  },
   description:
     "Ahlinya Performa Motor & Service Terpercaya di Tangerang. Spesialis servis dan upgrade performa motor injeksi/karbu.",
 
-  // Open Graph (untuk WhatsApp, FB, Telegram, LinkedIn, Discord)
   openGraph: {
     title: "ANG'S MOTOR",
     description:
