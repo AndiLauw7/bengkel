@@ -12,11 +12,44 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// export const metadata: Metadata = {
+//   title: "ANG'S MOTOR",
+//   description: "Ahlinya Performa Motor & Service Terpercaya di Tangerang.",
+// };
+
 export const metadata: Metadata = {
   title: "ANG'S MOTOR",
-  description: "Ahlinya Performa Motor & Service Terpercaya di Tangerang.",
-};
+  description:
+    "Ahlinya Performa Motor & Service Terpercaya di Tangerang. Spesialis servis dan upgrade performa motor injeksi/karbu.",
 
+  // Open Graph (untuk WhatsApp, FB, Telegram, LinkedIn, Discord)
+  openGraph: {
+    title: "ANG'S MOTOR",
+    description:
+      "Ahlinya Performa Motor & Service Terpercaya di Tangerang. Spesialis servis dan upgrade performa motor injeksi/karbu.",
+    url: "https://angs-motor-tangerang.netlify.app/",
+    siteName: "ANG'S MOTOR",
+    images: [
+      {
+        url: "https://angs-motor-tangerang.netlify.app/hero.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "ANG'S MOTOR Official Preview",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
+
+  // Twitter Card
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "ANG'S MOTOR",
+  //   description:
+  //     "Ahlinya Performa Motor & Service Terpercaya di Tangerang. Spesialis servis dan upgrade performa motor injeksi/karbu.",
+  //   images: ["https://angs-motor-tangerang.netlify.app/og-image.jpg"],
+  // },
+};
 export default function RootLayout({
   children,
 }: Readonly<{
