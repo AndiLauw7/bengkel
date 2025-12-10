@@ -19,7 +19,7 @@ const ContactSection: FC = () => {
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7247373000414!2d106.60744127316855!3d-6.2998550616529165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fd00681838f9%3A0x95bfa96e7cfdf235!2sANG'S%20MOTOR%20TANGERANG!5e0!3m2!1sid!2sid!4v1765380897444!5m2!1sid!2sid";
   return (
     <section className="py-20 bg-gray-900" id="kontak">
-      <div className=" px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-extrabold text-white mb-3">
             Hubungi Kami & Pesan Jadwal Anda
