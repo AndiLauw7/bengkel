@@ -42,7 +42,7 @@ const HeroSection: FC<HeroSectionProps> = ({
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           <Button
             variant="primary"
-            href="/reservasi"
+            href="#kontak"
             className="text-base sm:text-lg px-8 py-3"
           >
             Reservasi Service Sekarang!

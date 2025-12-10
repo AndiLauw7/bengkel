@@ -56,7 +56,7 @@ const NavigationBar: FC = () => {
             ))}
             <Button
               variant="primary"
-              href="/reservasi"
+              href="#kontak"
               className="mt-4 w-full"
               onClick={() => setIsOpen(false)}
             >

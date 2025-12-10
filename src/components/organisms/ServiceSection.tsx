@@ -10,21 +10,21 @@ const servicesData = [
     description:
       "Perawatan berkala, ganti oli, hingga setting karburator/injeksi ringan. Jaga performa motor harian Anda tetap prima.",
     icon: <Wrench size={32} />,
-    link: "/services#tune-up",
+    link: "#kontak",
   },
   {
     title: "Upgrade Performa (Bore Up & CVT)",
     description:
       "Kami ahlinya Bore Up, Porting/Polish, hingga Upgrade CVT. Tingkatkan akselerasi dan kecepatan motor Anda.",
     icon: <Gauge size={32} />,
-    link: "/services#upgrade",
+    link: "#kontak",
   },
   {
     title: "Service Injeksi & Kelistrikan",
     description:
       "Solusi akurat untuk masalah sistem injeksi, kelistrikan, dan diagnosis motor modern menggunakan alat canggih.",
     icon: <Zap size={32} />,
-    link: "/services#injeksi",
+    link: "#kontak",
   },
 ];
 
@@ -60,7 +60,7 @@ const ServiceFeatureSection: FC = () => {
           <p className="text-gray-300 mb-4">
             Tidak menemukan layanan yang Anda cari?
           </p>
-          <Button variant="secondary" href="/services" className="px-8 py-3">
+          <Button variant="secondary" href="#kontak" className="px-8 py-3">
             Lihat Semua Daftar Layanan Kami
           </Button>
         </div>
